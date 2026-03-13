@@ -1,3 +1,4 @@
+import Accomplishments from "./components/Accomplishments";
 import Achievements from "./components/Achievements";
 import Biography from "./components/Biography";
 import CareerSummary from "./components/CareerSummary";
@@ -18,6 +19,7 @@ function App() {
     <Philosophy/>
     <Biography/>
     <Skills />
+    <Accomplishments />
     <Projects />
     <Achievements/>
     <References/>
