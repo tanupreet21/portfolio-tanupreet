@@ -1,6 +1,6 @@
 export default function Skills(){
     return(
-        <section id="skills" className="p-10">
+        <section id="skills" className="max-w-6xl mx-auto px-6 py-20">
             <h2 className="text-2xl font-bold">Marketable Skills</h2>
                 <ul className="mt-4">
                 <li>Full-stack web development using modern frameworks</li>

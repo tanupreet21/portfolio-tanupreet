@@ -12,18 +12,18 @@ import Skills from "./components/Skills";
 function App() {
 
   return (
-    <>
-    <Navbar/>
-    <Hero />
-    <CareerSummary />
-    <Philosophy/>
-    <Biography/>
-    <Skills />
-    <Accomplishments />
-    <Projects />
-    <Achievements/>
-    <References/>
-    </>
+    <div className="bg-background text-slate-100 min-h-screen">
+      <Navbar/>
+      <Hero />
+      <CareerSummary />
+      <Philosophy/>
+      <Biography/>
+      <Skills />
+      <Accomplishments />
+      <Projects />
+      <Achievements/>
+      <References/>
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
 export default function Accomplishments() {
     return(
-        <section className="p-10">
+        <section className="max-w-6xl mx-auto px-6 py-20">
             <h2 className="text-2xl font-bold">Accomplishments</h2>
             <ul className="mt-4">
             <li>Optimized SQL queries and database access patterns,

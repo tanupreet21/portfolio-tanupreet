@@ -1,6 +1,6 @@
 export default function Biography(){
     return(
-        <section className="p-10">
+        <section className="max-w-6xl mx-auto px-6 py-20">
             <h2 className="text-2xl font-bold">Biography</h2>
             <p>
                 I am a software developer who enjoys solving complex problems and building

@@ -1,6 +1,6 @@
 export default function CareerSummary(){
     return(
-        <section className="p-10">
+        <section className="max-w-6xl mx-auto px-6 py-20">
             <h2 className="text-2xl font-bold">Career Summary</h2>
             <p>
                 Full-stack software developer with experience building scalable web
