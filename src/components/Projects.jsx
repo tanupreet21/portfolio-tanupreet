@@ -1,6 +1,6 @@
 export default function Projects(){
     return(
-        <section id="Projects" className="max-w-6xl mx-auto px-6 py-20">
+        <section id="projects" className="max-w-6xl mx-auto px-6 py-20">
             <h2 className="text-2xl font-bold">Projects</h2>
             <div className="mt-5">
                 <h3 className="font-semibold">Capstone Project</h3>

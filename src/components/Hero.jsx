@@ -4,7 +4,7 @@ import profile from "../assets/profile.jpg";
 
 export default function Hero(){
     return(
-        <section className="max-w-6xl mx-auto px-6 py-24">
+        <section id="home" className="pt-32 max-w-6xl mx-auto px-6 py-24">
             <div className="grid md:grid-cols-2 items-center gap-12">
                 <div>
                     <motion.h1
