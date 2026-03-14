@@ -29,7 +29,7 @@ const accomplishments = [
 
 export default function Accomplishments() {
     return(
-        <section id="achievements" className="max-w-6xl mx-auto px-6 py-24">
+        <section id="impact" className="max-w-6xl mx-auto px-6 py-24">
             <h2 className="text-2xl font-bold text-center mb-16">Professional Impact</h2>
             <div className="grid md:grid-cols-4 gap-10 text-center">
             {accomplishments.map((item, index) => (

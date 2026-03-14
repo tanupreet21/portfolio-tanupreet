@@ -36,6 +36,11 @@ export default function Navbar(){
                         </a>
                     </li>
                     <li>
+                        <a href="#impact" className="hover:text-primary transition">
+                            Professional Impact
+                        </a>
+                    </li>
+                    <li>
                         <a href="#achievements" className="hover:text-primary transition">
                             Achievements
                         </a>
