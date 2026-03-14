@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import References from "./components/References";
 import Skills from "./components/Skills";
+import Footer from "./components/footer";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Accomplishments />
       <Achievements/>
       <References/>
+      <Footer />
     </div>
   )
 }

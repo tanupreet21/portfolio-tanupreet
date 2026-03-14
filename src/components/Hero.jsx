@@ -39,12 +39,19 @@ export default function Hero(){
                         animate={{ opacity: 1}}
                         transition={{ delay: 0.7}}
                     >
-                        <button className="bg-primary hover:bg-indigo-600 text-white px-6 py-3 rounded-lg transition">
+                        <button 
+                            onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+                            className="bg-primary hover:bg-indigo-600 text-white px-6 py-3 rounded-lg transition"
+                        >
                             View Projects
                         </button>
-                        <button className="border border-slate-600 hover:border-primary px-6 py-3 rounded-lg transition">
-                            Contact Me
-                        </button>
+                        <a
+                            href="/Resume_TanupreetKaur_FullStack.pdf" // Place your resume in the public folder
+                            download
+                            className="border border-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg transition"
+                        >
+                            Download Resume
+                        </a>
                     </motion.div>
                     <motion.div
                         className="flex gap-5 text-2xl text-muted"

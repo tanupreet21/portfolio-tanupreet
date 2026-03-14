@@ -37,7 +37,7 @@ export default function Navbar(){
                     </li>
                     <li>
                         <a href="#impact" className="hover:text-primary transition">
-                            Professional Impact
+                            Impact
                         </a>
                     </li>
                     <li>
