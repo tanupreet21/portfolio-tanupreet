@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa";
+import { FaEye, FaGithub } from "react-icons/fa";
 
 const projects = [
     {
         title: "NewCanadian (Capstone Project)",
         description: "A full-stack platform that connects newcomers to Canada with volunteer language buddies. The system enables users to register, match with volunteers, and communicate through an intuitive interface",
         tech: ["React", "Node.js", "Express", "REST APIs", "PostgreSQL", "CSS"],
-        github: "https://github.com/tanupreet21/CapstoneProject_NewCanadian"
+        github: "https://github.com/tanupreet21/CapstoneProject_NewCanadian",
+        projectDocs: "https://github.com/tanupreet21/CapstoneProject_ProjectManagementDocs"
     },
     {
         title: "Student Hub – Spring Boot Microservices",
@@ -22,6 +23,7 @@ const projects = [
           "Microservices",
         ],
         github: "https://github.com/tanupreet21/StudentHub_SpringBoot",
+        projectDocs: null
     },
     {
         title: "Employee Management System",
@@ -29,6 +31,7 @@ const projects = [
           "A full-stack MERN application for managing employee records with authentication, CRUD operations, search functionality, profile image uploads, and Docker-based deployment.",
         tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Docker"],
         github: "https://github.com/tanupreet21/EmployeeManagementSystem",
+        projectDocs: null
       },
 ];
 
@@ -60,14 +63,28 @@ export default function Projects(){
                                 </span>
                             ))}
                         </div>
-                        <a
-                            href={project.github}
-                            target="_blank"
-                            className="inline-flex items-center gap-2 text-primary hover:underline"
-                        >
-                            <FaGithub />
-                            View Code
-                        </a>
+                        <div 
+                        className="flex gap-4">
+                            <a
+                                href={project.github}
+                                target="_blank"
+                                className="inline-flex items-center gap-2 text-primary hover:underline"
+                            >
+                                <FaGithub />
+                                View Code
+                            </a>
+                            { project.projectDocs ? (
+                                    <a
+                                        href={project.projectDocs}
+                                        target="_blank"
+                                        className="inline-flex items-center gap-2 text-primary hover:underline"
+                                    >
+                                        <FaEye />View Docs
+                                    </a>
+                            ): (null)
+                            }
+
+                        </div>
                     </motion.div>
                 ))}
             </div>

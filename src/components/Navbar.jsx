@@ -36,6 +36,11 @@ export default function Navbar(){
                         </a>
                     </li>
                     <li>
+                        <a href="#education" className="hover:text-primary transition">
+                            Education
+                        </a>
+                    </li>
+                    <li>
                         <a href="#impact" className="hover:text-primary transition">
                             Impact
                         </a>

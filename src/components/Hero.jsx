@@ -54,7 +54,7 @@ export default function Hero(){
                         </a>
                         <a
                             href="/CL_Tanupreet_Kaur.pdf" 
-                            download
+                            target="_blank"
                             className="border border-muted text-m text-muted hover:border-primary hover:text-primary px-6 py-3 rounded-lg transition"
                         >
                             Cover Letter

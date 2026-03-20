@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Accomplishments from "./components/Accomplishments";
 import Achievements from "./components/Achievements";
+import Education from "./components/Education";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <Projects />
       <Accomplishments />
+      <Education/>
       <Achievements/>
       <References/>
       <Footer />
