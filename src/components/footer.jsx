@@ -11,17 +11,14 @@ export default function Footer() {
     >
       <div className="max-w-6xl mx-auto px-6 py-3 flex flex-col md:flex-row justify-between items-center gap-3 md:gap-0">
         
-        {/* Left: Name / Copyright */}
         <div className="text-center md:text-left text-muted text-sm">
           &copy; {new Date().getFullYear()} Tanupreet Kaur
         </div>
 
-        {/* Middle: Call to action */}
         <div className="text-primary font-semibold text-sm hover:underline cursor-pointer">
           <a href="mailto:tanupreetkaur2106@gmail.com">Let's work together</a>
         </div>
 
-        {/* Right: Social links */}
         <div className="flex gap-5 text-2xl text-muted">
           <a href="mailto:tanupreetkaur2106@gmail.com" className="hover:text-primary transition">
             <FaEnvelope />

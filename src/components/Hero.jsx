@@ -41,16 +41,23 @@ export default function Hero(){
                     >
                         <button 
                             onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
-                            className="bg-primary hover:bg-indigo-600 text-white px-6 py-3 rounded-lg transition"
+                            className="bg-primary hover:bg-indigo-600 text-white px-6 py-3 rounded-lg transition shadow-md"
                         >
                             View Projects
                         </button>
                         <a
-                            href="/Resume_TanupreetKaur_FullStack.pdf" // Place your resume in the public folder
+                            href="/Resume_TanupreetKaur_FullStack.pdf" 
                             download
-                            className="border border-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg transition"
+                            className="border border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg transition"
                         >
                             Download Resume
+                        </a>
+                        <a
+                            href="/CL_Tanupreet_Kaur.pdf" 
+                            download
+                            className="border border-muted text-m text-muted hover:border-primary hover:text-primary px-6 py-3 rounded-lg transition"
+                        >
+                            Cover Letter
                         </a>
                     </motion.div>
                     <motion.div
